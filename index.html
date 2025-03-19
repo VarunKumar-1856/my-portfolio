@@ -17,11 +17,11 @@
             font-family: 'Poppins', sans-serif;
             background: linear-gradient(120deg, #84a6e9, #6b92d6);
             color: #fff;
+            text-align: center;
         }
         header {
             background: rgba(0, 0, 0, 0.7);
             padding: 2rem 0;
-            text-align: center;
             position: relative;
         }
         .profile-picture {
@@ -67,8 +67,11 @@
             padding: 2rem;
             background: rgba(255, 255, 255, 0.1);
             border-radius: 10px;
-            text-align: center;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .section:hover {
+            transform: scale(1.05);
         }
         .download-button {
             display: inline-block;
